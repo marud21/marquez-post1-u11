@@ -21,7 +21,8 @@ public class Pedido {
         this.total = total;
     }
 
-    public Long getId() { return id; }
+    public Long getId()          { return id; }
+    public void setId(Long id)   { this.id = id; }
     public Long getClienteId() { return clienteId; }
     public String getClienteNombre() { return clienteNombre; }
     public Double getTotal() { return total; }
